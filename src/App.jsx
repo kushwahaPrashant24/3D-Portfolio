@@ -2,6 +2,11 @@ import { BrowserRouter } from "react-router-dom";
 
 import { About, Contact, Experience, Hero, Navbar, Tech, Works, StarsCanvas } from "./components";
 
+import React, { Suspense } from 'react';
+
+// Dynamically import the large component
+const LargeComponent = React.lazy(() => import('./assets'));
+
 const App = () => {
   return (
     <BrowserRouter>
