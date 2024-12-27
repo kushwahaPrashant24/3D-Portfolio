@@ -12,8 +12,8 @@ import {
   git,
   figma,
   EditQuasar,
-  Plantopia,
-  Insiden,
+  AccessControl,
+  ChitChat,
   threejs,
 } from "../assets";
 
@@ -42,6 +42,8 @@ const services = [
     title: "Backend Developer",
     icon: backend,
   },
+
+  
  
 ];
 
@@ -140,25 +142,25 @@ const experiences = [
 
 const projects = [
   {
-    name: "Plantopia",
+    name: "RBAC Task Manager",
     description:
-      "Step into Plantopia, your one-stop destination for all things gardening! Built with React, this vibrant website offers a curated selection of plants and gardening materials. Explore a variety of botanical beauties, from lush houseplants to outdoor essentials. With easy navigation and secure checkout, Plantopia makes transforming your space into a green paradise a breeze. Dive into Plantopia today and let your gardening journey flourish!",
+      "At RBAC Task Manager, I led the development of the web app using React and TypeScript, ensuring type safety and a responsive interface. I collaborated with administrators to implement role-based task allocation, enabling customization of roles and priorities. Optimizing performance with Tailwind CSS, I ensured sleek design, cross-browser compatibility, and fast load times. The app streamlined task management, boosting productivity with seamless collaboration.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "javascript",
+        name: "typescript",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "tailwindcss",
         color: "pink-text-gradient",
       },
     ],
-    image: Plantopia,
-    source_code_link: "https://github.com/kushwahaPrashant24/Portfolio-",
+    image: AccessControl,
+    source_code_link: "https://github.com/kushwahaPrashant24/RBAC",
   },
   {
     name: "Edit Quasar",
@@ -182,12 +184,12 @@ const projects = [
     source_code_link: "https://github.com/kushwahaPrashant24/EditQuasar",
   },
   {
-    name: "Insiden",
+    name: "ChitChat",
     description:
-      "At Insiden, I contributed to enhancing their website by adding new features and improving existing functionality. My work focused on developing scalable, user-friendly components using React.js, ensuring the site remained responsive and optimized across devices. I collaborated with there teams to implement features that aligned with user needs and business objectives. I also worked on optimizing the performance of the site, improving load times.",
+      "ChitChat is a real-time chatting website that allows users to connect and converse with others. I used Socket.IO for messaging, React and Tailwind CSS for the front-end, and Node.js with Express for the back-end. Zustand managed the state, while MongoDB stored user data and messages. I also integrated Multer for file uploads and Shadcn for UI components, improving functionality and providing a smooth user experience. This project helped me enhance my full-stack development skills.",
     tags: [
       {
-        name: "nextjs",
+        name: "reactjs",
         color: "blue-text-gradient",
       },
       {
@@ -199,8 +201,8 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: Insiden,
-    source_code_link: "https://github.com/",
+    image: ChitChat,
+    source_code_link: "",
   },
 ];
 

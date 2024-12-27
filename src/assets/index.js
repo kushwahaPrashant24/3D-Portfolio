@@ -19,8 +19,8 @@ import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 
 import EditQuasar from "./EditQuasar.png";
-import Plantopia from "./Plantopia.png";
-import Insiden from "./Insiden.png";
+import AccessControl from "./accessControl.png";
+import ChitChat from "./chitChat.png";
 
 export {
   backend,
@@ -40,6 +40,6 @@ export {
   typescript,
   threejs,
   EditQuasar,
-  Plantopia,
-  Insiden,
+  AccessControl,
+  ChitChat,
 };
