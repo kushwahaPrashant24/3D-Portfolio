@@ -98,18 +98,20 @@ const technologies = [
 
 const experiences = [
   {
-    title: "Full Stack Developer",
-    company_name: "Edit Quasar",
+    title: "Backend Developer",
+    company_name: "DOUM",
   
     iconBg: "#383E56",
-    date: "May 2024 - Current",
+    date: "Jan 2025 - Current",
     points: [
-      "Develop and maintain web applications using React.js and related technologies, ensuring high performance and responsiveness.",
-      "Collaborate closely with cross-functional teams, including designers, product managers, and fellow developers, to deliver high-quality products aligned with project goals.",
-      "Implemented responsive design principles and ensured seamless cross-browser compatibility, enhancing user experience across multiple platforms.",
-      "Participated in code reviews, offering constructive feedback and fostering a culture of continuous improvement among the development team.",
+      "Developing a robust backend using TypeScript, Node.js, and Express.js, ensuring scalability and maintainability.",
+      "Implementing MongoDB for efficient data storage and retrieval, optimizing database performance.",
+      "Integrating Firebase Cloud Messaging (FCM) to enable real-time notifications, ensuring smooth communication within the app.",
+      "Collaborating closely with frontend developers, designers, and product managers to align backend functionality with user needs.",
+      "Enhancing API performance, security, and documentation for a seamless developer experience."
     ],
   },
+
   {
     title: "Full Stack Devloper",
     company_name: "Insiden",
@@ -121,6 +123,19 @@ const experiences = [
     "Collaborate with cross-functional teams including designers and product managers to deliver high-quality solutions.",
     "Ensure responsiveness and cross-browser compatibility for enhanced user experience.",
     "Participate in code reviews and provide feedback for continuous improvement."
+    ],
+  },
+  {
+    title: "Full Stack Developer",
+    company_name: "Edit Quasar",
+  
+    iconBg: "#383E56",
+    date: "May 2024 - sept 2024",
+    points: [
+      "Develop and maintain web applications using React.js and related technologies, ensuring high performance and responsiveness.",
+      "Collaborate closely with cross-functional teams, including designers, product managers, and fellow developers, to deliver high-quality products aligned with project goals.",
+      "Implemented responsive design principles and ensured seamless cross-browser compatibility, enhancing user experience across multiple platforms.",
+      "Participated in code reviews, offering constructive feedback and fostering a culture of continuous improvement among the development team.",
     ],
   },
   {
